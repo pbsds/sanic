@@ -93,7 +93,7 @@ class RunnerMixin(metaclass=SanicMeta):
         :type debug: bool
         :param auto_reload: Reload app whenever its source code is changed.
                             Enabled by default in debug mode.
-        :type auto_relaod: bool
+        :type auto_reload: bool
         :param ssl: SSLContext, or location of certificate and key
                     for SSL encryption of worker(s)
         :type ssl: str, dict, SSLContext or list
